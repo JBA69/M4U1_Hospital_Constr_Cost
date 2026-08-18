@@ -1,0 +1,5 @@
+column,type,label,description
+Column,text,,
+Type,text,,
+Label,text,,
+Description,text,,

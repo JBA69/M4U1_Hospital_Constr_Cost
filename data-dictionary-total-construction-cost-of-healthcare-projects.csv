@@ -1,0 +1,18 @@
+Column,Type,Label,Description
+County Code,Text,County Code,County number (set by State of California) and County Name
+Perm ID,Numeric,Perm ID,Facility number per Facilities Development Division
+Facility Name,Text,Facility Name,Name of the General Acute Care Hospital
+City,Text,City,City
+Building Nbr,Text,Building Nbr,Unique building number assigned to seismically separate building in a hospital campus.
+Building Name,Text,Building Name,Building name provided by the Facility.
+Building Status,Text,Building Status,"If currently in service, status is ""In Service"". If under construction, status is ""Under Construction"". Other statuses are used to identify buildings that may be located in general acute care facility but do not provide general acute care services."
+SPC Rating*,Text,SPC Rating*,"Structural Performance Category used to rate the building structure, can be 1 to 5, “s” is added where the rating is not confirmed by HCAI.  SPC 1 is assigned to buildings that may be at risk of collapse in a strong earthquake and SPC 5 is assigned to buildings reasonably capable of providing services to the public following strong ground motion.  N/A = Not Applicable and NYA = Not Yet Available."
+Building URL,Text,Building URL,A URL that oens the page associated with Building Nbr in the eServices Portal which provides access to related projects being constructed in the building.
+Height (ft),Numeric,Height (ft),Height in feet for the building where available
+Stories,Numeric,Stories,Number of stories in the building where available.
+Building Code,Text,Building Code,The building code that was used to design the building where available.
+Building Code Year,Numeric,Building Code Year,The year associated with the building code that was used to design the building (where available).
+Year Completed,Numeric,Year Completed,"The year that building was completed. Typically, the year the building is completed is later than the building code year."
+Latitude,Numeric,Latitude,Latitude of facility where building is located
+Longitude,Numeric,Longitude,Longitude of facility where building is located
+Count,Numeric,Count,Column to facilitate counting of filtered rows

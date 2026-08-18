@@ -1,0 +1,109 @@
+{
+  "accrual_periodicity": "other",
+  "additional_limitations": "",
+  "citation": "HCAI/Facilities Development Division, Healthcare Construction Cost Data",
+  "contact_email": "dataandreports@hcai.ca.gov",
+  "data_collection_tool": "SQL/Excel/VBA",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "Total dollar value and number of projects either in review, pending construction, in construction, or in closure aggregated into California counties, once every two weeks since September 2013.  A construction project moves through the Department of Health Care Access and Information (HCAI) in four stages - In Review; Pending Construction Start; Under Construction; and In Closure. A project can only be in one of these four stages at any time. Additional data when available will be added to this dataset approximately once every two weeks.",
+  "extras": {
+    "twitter_popup": []
+  },
+  "geo_coverage": "California",
+  "geographic_granularity": "county",
+  "keywords": [
+    "closure",
+    "construction",
+    "healthcare facility construction",
+    "healthcare projects",
+    "review",
+    "total construction cost"
+  ],
+  "limitations": "Limitations",
+  "name": "total-construction-cost-of-healthcare-projects",
+  "program_web_page": "https://hcai.ca.gov/facilities/building-safety/seismic-compliance-and-safety/",
+  "related_resources": "None",
+  "resources": [
+    {
+      "description": "Total dollar value and number of projects either in review, pending construction, in construction, or in closure aggregated into California counties, once every two weeks since September 2013.  A construction project moves through the Department of Health Care Access and Information (HCAI) in four stages - In Review; Pending Construction Start; Under Construction; and In Closure. A project can only be in one of these four stages at any time. Additional data when available will be added to this dataset approximately once every two weeks.",
+      "format": "CSV",
+      "hash": "b2f56c1e3a6f7d17b328a084a694bd24",
+      "name": "total-construction-cost-of-healthcare-projects-csv",
+      "path": "https://data.chhs.ca.gov/dataset/a396cdc6-0cd2-4faf-beea-f158e8581460/resource/cb040707-4ced-4f69-8867-53bba4513bee/download/ca-hcai-total-construction-cost-07232026.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "County number (set by State of California) and County Name",
+            "name": "County",
+            "title": "County",
+            "type": "string"
+          },
+          {
+            "name": "Data Generation Date",
+            "type": "string"
+          },
+          {
+            "name": "OSHPD Project Status",
+            "type": "string"
+          },
+          {
+            "name": "Total Costs of OSHPD Projects",
+            "type": "string"
+          },
+          {
+            "name": "Number of OSHPD Projects",
+            "type": "string"
+          },
+          {
+            "name": "Collection of Counties",
+            "type": "string"
+          }
+        ]
+      },
+      "title": "Total Construction Cost of Healthcare Projects (CSV)"
+    },
+    {
+      "description": "Total dollar value and number of projects either in review, pending construction, in construction, or in closure aggregated into California counties, once every two weeks since September 2013. A construction project moves through the Department of Health Care Access and Information (HCAI) in four stages - In Review; Pending Construction Start; Under Construction; and In Closure. A project can only be in one of these four stages at any time. Additional data when available will be added to this dataset approximately once every two weeks.",
+      "format": "CSV",
+      "hash": "d56aba0db9980f64ba4e1d3be7a1870c",
+      "name": "data-dictionary-total-construction-cost-of-healthcare-projects",
+      "path": "data-dictionary-total-construction-cost-of-healthcare-projects.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Column",
+            "type": "string"
+          },
+          {
+            "name": "Type",
+            "type": "string"
+          },
+          {
+            "name": "Label",
+            "type": "string"
+          },
+          {
+            "name": "Description",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/a396cdc6-0cd2-4faf-beea-f158e8581460/resource/d64ea389-3cf7-42a1-9e31-ac1d589bc9ba/download/datadictionary-hospital-building-data.csv",
+          "title": "Data Dictionary - Total Construction Cost of Healthcare Projects"
+        }
+      ],
+      "title": "Data Dictionary - Total Construction Cost of Healthcare Projects"
+    }
+  ],
+  "secondary_sources": "None",
+  "sources": [
+    {
+      "name": "Department of Health Care Access and Information/Facilities Development Division"
+    }
+  ],
+  "temporal_coverage": "September 2013 to current.",
+  "title": "Total Construction Cost of Healthcare Projects"
+}
